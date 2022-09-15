@@ -1,0 +1,18 @@
+@charset UTF-8;
+
+h1.chamada{
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.403);
+    vertical-align: middle;
+    padding: 50px;
+    width: 100vw;
+    display: block;
+}
+
+img.index{
+    display: block;
+    width: 400px;
+    margin: auto;
+    border-radius: 25px;
+}

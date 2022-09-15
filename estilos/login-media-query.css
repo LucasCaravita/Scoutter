@@ -1,0 +1,32 @@
+@charset UTF-8;
+
+@media screen and (min-width: 768px) /*Dispositivos maiores*/
+{
+    section#login{
+        position: absolute;
+        transform: translate(-50% , -50%);
+        width: 600px;
+        height: 300px;
+    }
+
+    section#cadastro{
+        position: absolute;
+        transform: translate(-50% , -50%);
+        width: 600px;
+        height: 550px;
+    }
+
+    section#login > div#img , section#cadastro > div#img{
+        display: inline-block;
+        width: 250px;
+        height: 100%;
+        background-position: 30% 0%;
+    }
+
+    section#login > div#form , section#cadastro > div#form{
+        position: absolute;
+        width: 350px;
+        height: 100%;
+        display: inline-block;
+    }
+}

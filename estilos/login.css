@@ -1,0 +1,109 @@
+@charset UTF-8;
+
+/*
+    Paleta de cores
+
+*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body , html{
+    background-image: linear-gradient(rgb(50, 13, 9),rgb(140, 13, 9));
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login , section#cadastro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+}
+
+section#login{
+    width: 300px;
+    height: 450px;
+    transform: translate(-50%,-50%);
+}
+
+section#cadastro{
+    width: 300px;
+    height: 680px;
+    transform: translate(-50%, -40%);
+}
+
+div#img-login{
+    display: block;
+    background: rgb(75,13,9) url(../imagens/imagem_login.jpg);
+    height: 150px;
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+div#img-index{
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+div#form{
+    display: block;
+    padding: 10px;
+}
+
+div#form > h1{
+    margin: 0px 0px 10px 0px;
+}
+
+div#form > form{
+    width: 220px;
+    padding: 10px;
+    font-weight: 600;
+    margin: auto;
+}
+
+
+div#form > form  input{
+    border: 1px solid rgba(0, 0, 0, 0.729);
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    width: 200px;
+
+}
+
+div#form > form  input.check{
+    width: 15px;
+    display: inline-block;
+}
+
+div#form > form  input.botao{
+    width: 81px;
+    margin: 10px 8px 0px 8px;
+    background-color: darkgray;
+    font-weight: 500 !important;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+div#form > form  input.botao:hover{
+    background-color: lightgrey;
+
+}
