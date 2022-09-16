@@ -56,14 +56,29 @@ a.menu{
 
 table{
     background-color: white;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+}
+
+thead th{
+    border: 2px solid rgba(0, 0, 0, 0.678);
 }
 
 table td , table th{
     min-width: 70px;
     height: 20px;
-    padding: 3px 5px;
-    border: 1px solid rgba(0, 0, 0, 0.619);
+    padding: 3px 10px;  
+}
+
+table td{
+border: 1px solid rgba(0, 0, 0, 0.619);
 }
 
 table input{
@@ -73,8 +88,11 @@ table input{
 
 main#scout_coletivo{
     width: 80%;
+    height: 80%;
+    min-height: 300px;
+    max-height: 500px;
     min-width: 300px;
-    max-width: 990px;
+    max-width: 1140px;
     margin: 50px auto;
     overflow: scroll;
 }
