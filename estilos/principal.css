@@ -14,14 +14,7 @@ body , html{
     width: 100vw;
 }
 
-li.menu{
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.423);
-    font-weight: 700;
-    background-color: rgb(50, 13, 9);
-    border-radius: 5px;
-}
+
 
 header#cabecalho{
     border: 0px solid rgba(255, 255, 255, 0.295);
@@ -34,13 +27,21 @@ h1.titulo{
     color: white;
     font-size: 3em;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    font-family: 'Courier New', Courier, monospace;        
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);    
+    padding: 10px;
+    margin: auto;
 }
 
 li.menu{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.423);
+    font-weight: 700;
+    background-color: rgb(50, 13, 9);
+    border-radius: 5px;
     width: 120px;    
     text-align: center;
-    font-weight: 700;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -51,11 +52,6 @@ li.menu:hover{
 a.menu{
     color: white;
     text-decoration: none;
-}
-
-h1.titulo{
-    padding: 10px;
-    margin: auto;
 }
 
 table{
@@ -76,7 +72,9 @@ table input{
 }
 
 main#scout_coletivo{
-    max-width: 400px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 990px;
     margin: 50px auto;
     overflow: scroll;
 }
