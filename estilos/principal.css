@@ -73,7 +73,7 @@ table input{
 
 main#scout_coletivo{
     width: 80%;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 990px;
     margin: 50px auto;
     overflow: scroll;
