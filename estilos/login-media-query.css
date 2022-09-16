@@ -16,7 +16,7 @@
         height: 550px;
     }
 
-    section#login > div#img , section#cadastro > div#img{
+    section#login > div#img-login , section#cadastro > div#img-login{
         display: inline-block;
         width: 250px;
         height: 100%;
@@ -25,8 +25,9 @@
 
     section#login > div#form , section#cadastro > div#form{
         position: absolute;
+        display: inline-block;
         width: 350px;
         height: 100%;
-        display: inline-block;
+        
     }
 }

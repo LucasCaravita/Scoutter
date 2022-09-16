@@ -1,18 +1,27 @@
 @charset UTF-8;
 
+main{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
 h1.chamada{
     font-size: 2em;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.403);
     vertical-align: middle;
-    padding: 50px;
-    width: 100vw;
+    padding: 50px 0px;
     display: block;
 }
 
-img.index{
+div#img_index{
+    position: absolute;
     display: block;
-    width: 300px;
-    margin: auto;
+}
+
+div#img_index > img{
+    width: 350px;
+    margin: 0px 25px;
     border-radius: 25px;
 }
